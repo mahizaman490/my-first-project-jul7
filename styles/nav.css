@@ -12,8 +12,13 @@ font-size: 20px;
 font-weight: 700;
 padding:10px 30px;
 }
+.section-title{
 
-
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -52,19 +57,62 @@ nav a{
 }
 
 .header{
-
+background-image: url(../images/header_bg.png);
 background-color: #FFF8F3;
+background-repeat: no-repeat;
+background-position: bottom right;
+
 
 }
 
 .banner{
-padding: 20px 20px 20px 100px;
+padding: 20px 20px 0px 100px;
 display: flex;
 align-items: center;
+justify-content: space-between;
 }
 
 
 .banner .proffile{
-width: 300px;
+width: 200px;
+
+}
+.banner-text{
+
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-heading{
+    font-size:35px;
+    font-weight: 700;
+margin-top: 2px;
+}
+
+.banner-desc{
+    margin-bottom:5px ;
+}
+
+
+.banner-content{
+
+max-width: 500px;
+
+}
+
+
+.about{
+    padding: 100px;
+    border-radius: 7px;
+    background-color: #FFF8F3;
+    margin:100px 0;
+}
+
+
+.section-desc{
+color: #757575;
+text-align: center;
+font-size: 15px;
+
 
 }
