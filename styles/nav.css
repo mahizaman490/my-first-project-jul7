@@ -96,7 +96,7 @@ margin-top: 2px;
 
 .banner-content{
 
-max-width: 500px;
+max-width: 700px;
 
 }
 
@@ -104,7 +104,7 @@ max-width: 500px;
 .about{
     padding: 100px;
     border-radius: 7px;
-    background-color: #FFF8F3;
+    background-color: #ffeddf;
     margin:100px 0;
 }
 
@@ -114,5 +114,27 @@ color: #757575;
 text-align: center;
 font-size: 15px;
 
+
+}
+main{
+ margin: 0 auto;
+    max-width: 700px;
+  
+}
+
+
+.about-info-container{
+display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info-container .about-info h4{
+    color: #757575;
+
+}
+
+.about-info{
+text-align: center;
 
 }
