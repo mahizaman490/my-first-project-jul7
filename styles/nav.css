@@ -104,7 +104,7 @@ max-width: 700px;
 .about{
     padding: 100px;
     border-radius: 7px;
-    background-color: #ffeddf;
+    background-color:hwb(37 77% 0%);
     margin:100px 0;
 }
 
@@ -136,5 +136,38 @@ display: flex;
 
 .about-info{
 text-align: center;
+
+}
+#i-do{
+
+    padding: 20px 100px;
+}
+
+.skills-container{
+
+display: flex;
+gap: 15px;
+height:250px;
+}
+
+.skill-desc{
+    font-size: 12px;
+    color: #757575;
+}
+
+.skill{
+    padding:30px;
+    border-radius: 5px;
+  background-color: #FFF;
+  box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+main section{
+
+
+    margin-top: 70px;
+}
+
+.resume-column{
 
 }
