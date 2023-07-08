@@ -11,8 +11,13 @@ color: white;
 font-size: 20px;
 font-weight: 700;
 padding:10px 30px;
-}
 
+}
+.btn-style{
+
+    margin-bottom: 30px;
+
+}
 
 .btn-primary:hover{
 
@@ -84,10 +89,12 @@ background-repeat: no-repeat;
 background-position: bottom right;
 
 
+
+
 }
 
 .banner{
-padding: 20px 20px 0px 100px;
+padding: 10px 10px 0px 70px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -111,7 +118,7 @@ margin-top: 2px;
 }
 
 .banner-desc{
-    margin-bottom:5px ;
+    margin-bottom:30px ;
 }
 
 
@@ -133,7 +140,7 @@ max-width: 700px;
 .section-desc{
 color: #756f6f;
 text-align: center;
-font-size: 15px;
+font-size: 12px;
 
 
 }
@@ -214,7 +221,7 @@ main section{
 
 .resume-column{
     
-    font-size: 10px;
+    font-size: 15px;
 }
 
 
@@ -228,7 +235,7 @@ main section{
 
   margin: 50px;
   padding: 20px;
-  gap: 15px;
+  gap: 25px;
   
 }
 
@@ -261,7 +268,7 @@ gap: 100px;
 }
 
 .footer-desc{
-font-size: 10px;
+font-size: 20px;
 
 }
 
