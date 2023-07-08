@@ -163,11 +163,58 @@ height:250px;
 }
 
 main section{
+    margin-top: 100px;
 
-
-    margin-top: 70px;
+   
 }
 
 .resume-column{
 
 }
+
+.column-title{
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-columns{
+
+
+}
+
+.resume-column{
+    
+    font-size: 10px;
+}
+
+
+
+.section-title{
+
+}
+
+.resume-container{
+  display: flex;
+
+
+  margin: 50px;
+  padding: 20px;
+  gap: 15px;
+  
+}
+
+
+.resume-item-desc, .resume-item-institute {
+    color: #757575;
+    
+}
+
+#i-do{
+
+
+
+    color: #757575;
+}
+
+
