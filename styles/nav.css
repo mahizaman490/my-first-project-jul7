@@ -87,7 +87,7 @@ background-image: url(../images/header_bg.png);
 background-color: #FFF8F3;
 background-repeat: no-repeat;
 background-position: bottom right;
-
+height:600px ;
 
 
 
@@ -102,7 +102,7 @@ justify-content: space-between;
 
 
 .banner .proffile{
-width: 200px;
+width: 377px;
 
 }
 .banner-text{
