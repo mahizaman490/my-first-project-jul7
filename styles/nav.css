@@ -14,7 +14,8 @@ padding:10px 30px;
 
 }
 .btn-style{
-
+    padding: 15px;
+    border-radius: 4px ;
     margin-bottom: 30px;
 
 }
@@ -24,11 +25,13 @@ padding:10px 30px;
     background-color: white;
     color:#FD6E0A ;
     border: 2px solid #FD6E0A;
+
 }
 .btn:hover{
     background-color: white;
     color:#FD6E0A ;
     border: 2px solid #FD6E0A;
+
     padding: 5px;
     border-radius: 4px ;
 
@@ -293,4 +296,89 @@ border: none;
 resize: none;
 border-radius: 5px;
 width: 100%;
+}
+
+.hide{
+    display: none;
+}
+
+/*responsive*/
+/*mobile device*/
+@media screen and (max-width:576px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .skills-container,footer{
+        flex-direction: column;
+    }
+    footer , .about{
+        padding:10px;
+    }
+    .header{
+      height: 700px; 
+    }
+#i-do{
+    padding: 20px;
+}
+.resume-container{
+    flex-direction: column;
+    
+}
+.resume-section{
+    margin-top: 700px;
+}
+.center{
+    margin-left: 15%;
+   
+}
+.banner{
+    flex-direction: column;
+}
+footer{
+  width: 100%; 
+}
+.about-info-container , nav{
+    flex-direction: column;
+}
+.proffile{
+    display:none;
+}
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width:960px){
+
+    .resume-container{
+        flex-direction: column;
+        
+    }
+    
+    .skills-container{
+        flex-direction: column;
+       
+        margin: 10%;
+
+    }
+#i-do{
+    padding: 20px;
+}
+.resume-section{
+
+    margin-top: 700px;
+    
+}
+.center{
+    margin-left:10%;  
+   
+}
+.proffile{
+    display:none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 }
